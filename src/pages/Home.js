@@ -18,7 +18,7 @@ function Home() {
         <NavBar/>
       </header>
       <main>
-        <h1>Home page</h1>
+        <h1>Home Page</h1>
         {movies.map(mov=>{
           return <MovieCard mov={mov} key={mov.title}/>
         })}
